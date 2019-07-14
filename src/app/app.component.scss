@@ -1,0 +1,38 @@
+.wrapper {
+    height: 100vh;
+    display: grid;
+    grid-template-rows: min-content min-content min-content;
+    align-content: center;
+}
+.title {
+    font-size: 2em;
+    h1 {
+        margin: 0;
+        font-weight: 100;
+    }
+}
+.social {
+    
+    padding: 2vh;
+    font-size: 2em;
+    color: rgb(0, 0, 0) !important;
+    a {
+        margin-right: 2vh;
+        color: rgb(0, 0, 0) !important;
+        opacity: .25;
+        cursor: pointer;
+        &:hover {
+            opacity: 1;
+        }
+    }
+}
+.dialog {
+    position: absolute;
+    transform: translateY(10vh);
+    padding: 2vh;
+    opacity: 1 !important;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.76) !important;
+    color: white;
+    font-size: .6em;
+}
